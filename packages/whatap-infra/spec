@@ -1,0 +1,7 @@
+---
+name: whatap-infra
+
+dependencies: []
+
+files:
+- whatap-infra_1.2.2_amd64.deb

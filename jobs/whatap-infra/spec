@@ -1,0 +1,15 @@
+---
+name: whatap-infra
+
+templates:
+  ctrl.sh: bin/ctl
+
+packages:
+- whatap-infra
+
+properties:
+  license:
+    description: license for whatap-infra
+
+  server_host:
+    description: server list of whatap-infra (comma serperated)

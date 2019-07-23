@@ -1,0 +1,5 @@
+check process whatap-infra
+  with pidfile /usr/whatap/infra/conf/whatap_infrad.pid
+  start program "/var/vcap/jobs/whatap-infra/bin/ctl start"
+  stop program "/var/vcap/jobs/whatap-infra/bin/ctl stop"
+  group vcap
